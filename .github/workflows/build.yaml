@@ -14,3 +14,4 @@ jobs:
           ruby-version: 2.7
       - run: bundle platform
       - run: bundle install
+      - run: cat Gemfile.lock
